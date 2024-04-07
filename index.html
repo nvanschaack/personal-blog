@@ -4,25 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Nell's First Blog</title>
     <link rel="stylesheet" href="./assets/CSS/style.css">
+    <script defer src="assets/script/form.js"
 </head>
 
 <body>
     <header>
-        <h1>this is my header</h1>
+        <h1>My First Blog</h1>
     </header>
     <main>
-        <!-- include form -->
-        <form id="blogForm">
-            
+        <form id="blogForm" action="" method="" >
+            <div>
+                <label for="name"> Enter your username: </label>
+                <input type="text" name "username" id="username" />
+            </div>
+            <div>
+                <label for="title">Entern your blog title: </label>
+                <input type="text" name="title" id="title" />
+            </div>
+            <div>
+                <label for="content">Enter your blog post content here</label>
+                <input type="text" name="content" id="content" />
+            </div> 
+            <div>
+                <input type="submit" value="Submit" />
+            </div>
+
         </form>
 
     </main>
     <footer>
         this is my footer
     </footer>
-    <script src="./assets/script/form.js"></script>
 </body>
-
 </html>
