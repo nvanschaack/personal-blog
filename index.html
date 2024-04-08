@@ -6,36 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nell's First Blog</title>
     <link rel="stylesheet" href="./assets/CSS/style.css">
-    <script defer src="assets/script/form.js"
+    <script defer src="assets/script/form.js"></script>
 </head>
 
 <body>
-    <header>
+    <header class="main" id="header">
         <h1>My First Blog</h1>
     </header>
-    <main>
-        <form id="blogForm" action="" method="" >
-            <div>
+    <main class="main div">
+
+        <form id="blogForm" action="" method="get" >
+            <div id="username" >
                 <label for="name"> Enter your username: </label>
-                <input type="text" name "username" id="username" />
+                <input type="text" name="username" />
             </div>
-            <div>
-                <label for="title">Entern your blog title: </label>
-                <input type="text" name="title" id="title" />
+            <div id="title">
+                <label for="title">Enter your blog title: </label>
+                <input type="text" name="title" />
             </div>
-            <div>
-                <label for="content">Enter your blog post content here</label>
-                <input type="text" name="content" id="content" />
+            <div id="msg">
+                <label for="msg">Enter your blog post content here</label>
+                <textarea name="content"></textarea>
             </div> 
-            <div>
+            <div id="submit">
                 <input type="submit" value="Submit" />
             </div>
-
         </form>
 
     </main>
     <footer>
-        this is my footer
+        <ul>
+            <li>
+                <h2>GitHub Portfolio</h2>
+                <a href="https://nvanschaack.github.io/professional-portfolio/">Nell Van Schaack's Portfolio</a>
+            </li>
+            <li>
+                <h2>Blog</h2>
+                <p>Full Stack Blog</p>
+            </li>
+            <li>
+                <h2>Email</h2>
+                <a href="nellvanschaack@gmail.com">Email Me</a>
+            </li>
+        </ul>
     </footer>
 </body>
 </html>

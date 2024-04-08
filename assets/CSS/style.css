@@ -1,0 +1,32 @@
+body {
+    background-color: antiquewhite;
+}
+
+.div {
+
+  }
+  
+.main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+#header {
+    border: 2px solid black;
+    padding: 20px;
+    display: flex;
+    display: inline-block;
+    margin: 10px;
+    width: 700px;
+    height: 700px;
+
+}
+#blogForm {
+    border: 2px solid black;
+    padding: 20px;
+    display: inline-block;
+    margin: 10px;
+    width: 600px;
+    height: 600px;
+    
+}
