@@ -11,6 +11,8 @@ submit.addEventListener('click', function(event){
         username: userName.value,
         title: title.value,
         content: blogMessage.value,
+
+        localStorage.setItem('stored',userName.value, title.value, blogMessage.value)
     };
     // console.log(blogPost) -use activity 23
 })
