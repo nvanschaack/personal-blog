@@ -7,29 +7,33 @@
     <title>Nell's First Blog</title>
     <link rel="stylesheet" href="./assets/CSS/style.css">
     <script defer src="assets/script/form.js"></script>
+    <a href="blog.html"></a>
 </head>
 
 <body>
-    <header class="main" id="header">
-        <h1>My First Blog</h1>
-    </header>
+   <header>
+    <h1>Nell's Blog</h1>
+   </header>
     <main class="main div">
+        <div class="main" id="header">
+            <h2>My First Blog</h2>
+        </div>
 
         <form id="blogForm" action="" method="get" >
-            <div id="username" >
+            <div>
                 <label for="name"> Enter your username: </label>
-                <input type="text" name="username" />
+                <input type="text" name="username" id="username"/>
             </div>
-            <div id="title">
+            <div >
                 <label for="title">Enter your blog title: </label>
-                <input type="text" name="title" />
+                <input type="text" name="title" id="title"/>
             </div>
-            <div id="msg">
+            <div>
                 <label for="msg">Enter your blog post content here</label>
                 <textarea name="content"></textarea>
             </div> 
             <div id="submit">
-                <input type="submit" value="Submit" />
+                <input type="submit" value="Submit" id="msg"/>
             </div>
         </form>
 

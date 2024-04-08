@@ -1,5 +1,7 @@
 body {
     background-color: antiquewhite;
+    display: flex;
+    display: inline-block;
 }
 
 .div {
@@ -15,16 +17,16 @@ body {
     border: 2px solid black;
     padding: 20px;
     display: flex;
-    display: inline-block;
+    /* display: inline-block; */
     margin: 10px;
-    width: 700px;
-    height: 700px;
+    width: 600px;
+    height: 600px;
 
 }
 #blogForm {
     border: 2px solid black;
     padding: 20px;
-    display: inline-block;
+    /* display: inline-block; */
     margin: 10px;
     width: 600px;
     height: 600px;
