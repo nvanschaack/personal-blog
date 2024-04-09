@@ -12,30 +12,27 @@ submit.addEventListener('click', function (event) {
         title: title.value,
         content: blogMessage.value,
     };
-
+    userName.value = '';
+    title.value = '';
+    blogMessage.value = '';
+    
     const saveToLocalStorage = function () {
         const blogPostString = JSON.stringify(blogPost);
         localStorage.setItem('storedBlogPost', blogPostString);
     };
     saveToLocalStorage();
     console.log(JSON.parse(localStorage.getItem('storedBlogPost')));
-//have the form revert back to blank inputs when i click submit -ADD TO LINE 14? EX ON 04.15
-    submit.addEventListener('click', function(){
-        userName.value= '';
-        title.value= '';
-        blogMessage.value= '';
-
-    })
+   
 })
 //LIGHT SWITCH
 const lightSwitch = document.querySelector('.button')
 const container = document.querySelector('.container')
 //set default to light
- let mode = 'light';
+let mode = 'light';
 //listen for a click event on toggle switch
-lightSwitch.addEventListener('click',function(){
+lightSwitch.addEventListener('click', function () {
     //if mode is light, apply dark background
-    if (mode === 'light'){
+    if (mode === 'light') {
         mode = 'dark';
         container.setAttribute('class', 'dark')
     } else {
