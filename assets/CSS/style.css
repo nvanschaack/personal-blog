@@ -1,34 +1,59 @@
 body {
-    background-color: antiquewhite;
-    display: flex;
-    display: inline-block;
+  background-color: antiquewhite;
+  display: flex;
+  display: inline-block;
 }
 
-.div {
+footer {
+  border: 2px solid black;
+  padding: 20px;
+  display: flex;
+}
 
-  }
-  
+.button {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
 .main {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-#header {
-    border: 2px solid black;
-    padding: 20px;
-    display: flex;
-    /* display: inline-block; */
-    margin: 10px;
-    width: 600px;
-    height: 600px;
-
+  display: flex;
+  flex-wrap: wrap;
 }
+
+/* dark mode */
+.dark {
+  background-color: rgb(74, 74, 74);
+  height: 100vh;
+  color: rgb(11, 10, 10);
+  text-shadow: 2px 2px 2px rgb(184, 180, 180);
+}
+
+/* light mode */
+.light {
+  background-color: antiquewhite;
+  color: black;
+  height: 100vh;
+}
+
+#my-first-blog {
+  border: 2px solid black;
+  padding: 20px;
+  display: flex;
+  /* display: inline-block; */
+  margin: 10px;
+  width: 600px;
+  height: 600px;
+  background-image: url(../images/sun.png);
+}
+
 #blogForm {
-    border: 2px solid black;
-    padding: 20px;
-    /* display: inline-block; */
-    margin: 10px;
-    width: 600px;
-    height: 600px;
-    
+  border: 2px solid black;
+  padding: 20px;
+  /* display: inline-block; */
+  margin: 10px;
+  width: 600px;
+  height: 600px;
+  text-align: center;
+  display: inline;
 }

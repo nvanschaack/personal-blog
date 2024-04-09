@@ -10,30 +10,33 @@
     <a href="blog.html"></a>
 </head>
 
-<body>
-   <header>
-    <h1>Nell's Blog</h1>
-   </header>
-    <main class="main div">
-        <div class="main" id="header">
+<body class="container">
+    <header>
+        <h1>Nell's Blog</h1>
+        <button class="button"> (add emoji here)
+        </button>
+    </header>
+    <main class="main">
+
+        <div class="main" id="my-first-blog">
             <h2>My First Blog</h2>
         </div>
 
-        <form id="blogForm" action="" method="get" >
+        <form id="blogForm" action="" method="get">
             <div>
                 <label for="name"> Enter your username: </label>
-                <input type="text" name="username" id="username"/>
-            </div>
-            <div >
-                <label for="title">Enter your blog title: </label>
-                <input type="text" name="title" id="title"/>
+                <input type="text" name="username" id="username" />
             </div>
             <div>
-                <label for="msg">Enter your blog post content here</label>
-                <textarea name="content"></textarea>
-            </div> 
+                <label for="title">Enter your blog title: </label>
+                <input type="text" name="title" id="title" />
+            </div>
+            <div>
+                <label for="msg">Enter your blog post content here:</label>
+                <textarea name="content" id="text-area"></textarea>
+            </div>
             <div id="submit">
-                <input type="submit" value="Submit" id="msg"/>
+                <input type="submit" value="Submit" id="msg" />
             </div>
         </form>
 
@@ -50,9 +53,10 @@
             </li>
             <li>
                 <h2>Email</h2>
-                <a href="nellvanschaack@gmail.com">Email Me</a>
+                <a href="mailto:nellvanschaack@gmail.com">Email Me</a>
             </li>
         </ul>
     </footer>
 </body>
+
 </html>
