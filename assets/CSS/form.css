@@ -4,7 +4,7 @@ main div {
     display: flex;
     margin: 10px;
     background-image: url(../images/horizon.jpg);
-    background-size: 100%;
+    background-size: cover;
   }
   
 form {
@@ -12,10 +12,16 @@ form {
     padding: 10px;
     margin: 10px;
     width: 35%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   .submit {
     width: 50%;
     color: rgb(9, 1, 111);
     background-color: beige;
   }
-  
+  form div {
+    min-width: 30vw;
+    flex-wrap: wrap;
+  }

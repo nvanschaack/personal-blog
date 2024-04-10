@@ -22,12 +22,20 @@ main div {
 .dark {
   background-color: rgb(29, 0, 132);
   height: 100vh;
-  color: rgb(238, 234, 253);
+  color: navy;
 }
-
+.dark h1{
+  color: white;
+}
 .dark footer a {
   color: white;
   text-decoration: none;
+}
+.dark div {
+  border: 5px solid white;
+}
+.dark form {
+  border: 5px solid white;
 }
 
 /* light mode */

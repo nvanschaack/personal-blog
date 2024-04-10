@@ -15,10 +15,15 @@ submit.addEventListener('submit', function (event) {
         content: blogMessage.value,
     };
 
+   if (blogPost.username && blogPost.title && blogPost.content){
     localStorageData.push(blogPost)
     const blogPostString = JSON.stringify(localStorageData);
     localStorage.setItem('storedBlogPost', blogPostString);
 
     window.location.href = './blog.html'
+   } else {
+    alert('Please fill out username, title, and content!')
+   }
+    
 
 })
