@@ -1,7 +1,21 @@
-// Form Submission Handling: When the user submits the form with a new blog post, you need to handle the form submission using JavaScript. You can capture the form data (such as title, content, author, etc.) when the form is submitted.
+const localStorageData = JSON.parse(localStorage.getItem('storedBlogPost')) || []
 
-// Storing Blog Posts: You can store the submitted blog post data in an array, local storage, or a database depending on your setup and requirements.
+const blogContainer = document.getElementById('blogContainer')
 
-// Redirect to New Page: After successfully submitting the form and storing the blog post data, you can redirect the user to a new page where the blog posts will be displayed.
+for (let i = 0; i < localStorageData.length; i++) {
+    //create the HTML elements that will create each blog post
+    const divTag = document.createElement('div');
+    const headingTag = document.createElement('h3');
+    const p1Tag = document.createElement('p');
+    const p2Tag = document.createElement('p');
+    // add content into the newly created elements
 
-// Displaying Blog Posts: On the new page, you can dynamically render the blog posts from the stored data. You can use JavaScript to create HTML elements for each blog post and display them on the page.
+    headingTag.textContent = localStorageData[i].title
+    p1Tag.textContent = localStorageData[i].content
+    p2Tag.textContent = localStorageData[i].username
+
+
+    divTag.append(headingTag, p1Tag, p2Tag)
+    // append to the blogContainer
+    blogContainer.append(divTag)
+}

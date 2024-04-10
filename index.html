@@ -4,59 +4,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nell's First Blog</title>
+    <title>Nell's Blog</title>
     <link rel="stylesheet" href="./assets/CSS/style.css">
-    <script defer src="assets/script/form.js"></script>
-    <a href="blog.html"></a>
+    <link rel="stylesheet" href="./assets/CSS/form.css">
 </head>
 
 <body class="container">
+
     <header>
         <h1>Nell's Blog</h1>
-        <button class="button"> (add emoji here)
+        <button class="button"> Lightswitch
         </button>
     </header>
-    <main class="main">
+    <main>
 
-        <div class="main" id="my-first-blog">
-            <h2>My First Blog</h2>
+        <div>
+            <h2>Let's Blog!</h2>
         </div>
 
-        <form id="blogForm" action="" method="get">
+        <form id="blogForm" class="media-query">
             <div>
-                <label for="name"> Enter your username: </label>
-                <input type="text" name="username" id="username" />
+                <label for="username"> Enter your username: </label>
+                <input type="text" placeholder="enter username" id="username" />
             </div>
             <div>
                 <label for="title">Enter your blog title: </label>
-                <input type="text" name="title" id="title" />
+                <input type="text" id="title" placeholder="title" />
             </div>
             <div>
-                <label for="msg">Enter your blog post content here:</label>
-                <textarea name="content" id="text-area"></textarea>
+                <label for="text-area">Enter your blog post content here:</label>
+                <textarea id="text-area" placeholder="blog content"></textarea>
             </div>
-            <div id="submit">
-                <input type="submit" value="Submit" id="msg" />
-            </div>
+
+            <button type="submit" class="submit">Submit</button>
+
         </form>
 
     </main>
     <footer>
         <ul>
             <li>
-                <h2>GitHub Portfolio</h2>
-                <a href="https://nvanschaack.github.io/professional-portfolio/">Nell Van Schaack's Portfolio</a>
+                <a href="https://nvanschaack.github.io/professional-portfolio/">GitHub Portfolio</a>
             </li>
             <li>
-                <h2>Blog</h2>
-                <p>Full Stack Blog</p>
+                <a href="#">LinkedIn</a>
             </li>
             <li>
-                <h2>Email</h2>
                 <a href="mailto:nellvanschaack@gmail.com">Email Me</a>
             </li>
         </ul>
     </footer>
+
+    <script src="./assets/script/form.js"></script>
+    <script src="./assets/script/logic.js"></script>
 </body>
 
 </html>

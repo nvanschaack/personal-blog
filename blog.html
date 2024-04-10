@@ -4,36 +4,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog posts</title>
+    <title>Nell's First Blog</title>
     <link rel="stylesheet" href="./assets/CSS/style.css">
-    <script src="./assets/script/blog.js"></script>
+    <link rel="stylesheet" href="./assets/CSS/blog.css">
 </head>
 
-<body>
+<body class="container">
+
     <header>
-        <h1>My First Blog</h1>
+        <h1>Nell's Blog</h1>
+        <button class="button"> Lightswitch
+        </button>
+        <button class="back-btn"><a href="./index.html">Back</a></button>
     </header>
-    <main>
-        <!-- holds blog , needs to be stored in local storage-->
+    <main >
+
+        <div class="h2 media-query">
+            <h2>Latest Blog Posts</h2>
+        </div>
+
+        <div id="blogContainer" class="media-query"></div>
+
 
     </main>
     <footer>
         <ul>
             <li>
-                <h2>GitHub Portfolio</h2>
-                <a href="https://nvanschaack.github.io/professional-portfolio/">Nell Van Schaack's Portfolio</a>
+                <a href="https://nvanschaack.github.io/professional-portfolio/">GitHub Portfolio</a>
             </li>
             <li>
-                <h2>Blog</h2>
-                <p>Full Stack Blog</p>
+                <a href="#">LinkedIn</a>
             </li>
             <li>
-                <h2>Email</h2>
-                <a href="nellvanschaack@gmail.com">Email</a>
+                <a href="mailto:nellvanschaack@gmail.com">Email Me</a>
             </li>
         </ul>
     </footer>
 
+    <script src="./assets/script/blog.js"></script>
+    <script src="./assets/script/logic.js"></script>
 </body>
 
 </html>

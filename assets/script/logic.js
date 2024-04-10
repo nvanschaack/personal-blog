@@ -21,3 +21,21 @@
 // THEN I can see the title, the content, and the author of the post.
 // WHEN I view the footer,
 // THEN I am presented with a link to the developer's portfolio.
+
+//LIGHT SWITCH
+const lightSwitch = document.querySelector('.button')
+const container = document.querySelector('.container')
+//set default to light
+let mode = 'light';
+//listen for a click event on toggle switch
+lightSwitch.addEventListener('click', function () {
+    //if mode is light, apply dark background
+    if (mode === 'light') {
+        mode = 'dark';
+        container.setAttribute('class', 'dark')
+    } else {
+        mode = 'light';
+        container.setAttribute('class', 'light')
+    }
+    console.log(container)
+})

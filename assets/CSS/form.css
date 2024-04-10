@@ -1,0 +1,21 @@
+main div {
+    border: 2px solid rgb(9, 1, 111);
+    padding: 20px;
+    display: flex;
+    margin: 10px;
+    background-image: url(../images/horizon.jpg);
+    background-size: 100%;
+  }
+  
+form {
+    border: 2px solid rgb(9, 1, 111);
+    padding: 10px;
+    margin: 10px;
+    width: 35%;
+  }
+  .submit {
+    width: 50%;
+    color: rgb(9, 1, 111);
+    background-color: beige;
+  }
+  

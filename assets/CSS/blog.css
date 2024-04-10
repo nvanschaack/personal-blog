@@ -1,0 +1,28 @@
+#blogContainer {
+    border: 2px solid rgb(29, 0, 132);
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+    background-color: beige;
+}
+
+.back-btn {
+    position: absolute;
+    right: 40px;
+    top: 45px;
+    background-color: rgb(29, 0, 132);
+}
+.back-btn a {
+    color: white;
+    text-decoration: none;
+}
+.h2 {
+    border: 2px solid rgb(29, 0, 132);
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+}
+
+  
