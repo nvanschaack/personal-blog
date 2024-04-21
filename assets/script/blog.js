@@ -8,14 +8,13 @@ for (let i = 0; i < localStorageData.length; i++) {
     const headingTag = document.createElement('h3');
     const p1Tag = document.createElement('p');
     const p2Tag = document.createElement('p');
+    
     // add content into the newly created elements
-
     headingTag.textContent = localStorageData[i].title
     p1Tag.textContent = localStorageData[i].content
     p2Tag.textContent = localStorageData[i].username
 
-
+    // append elements to divTag then to blogContainer
     divTag.append(headingTag, p1Tag, p2Tag)
-    // append to the blogContainer
     blogContainer.append(divTag)
 }

@@ -1,7 +1,8 @@
 # Personal Blog
+![Preview of Personal Blog](./assets/images/personal-blog-screenshot.png) 
 
 ## Description
-This blog showcases the skill of linking three coding components: **HTML**, **CSS**, and **Javascript**. Not only does creating content on one page transfer to a second page (by submitting a form), but there is a lightswitch element on both pages as well as a back button on the second page of the blog. These features prove the importance and versitality of Javascript!
+This [blog](https://nvanschaack.github.io/personal-blog/) showcases the skill of linking three coding components: **HTML**, **CSS**, and **Javascript**. Not only does creating content on one page transfer to a second page (by submitting a form), but there is a lightswitch element on both pages as well as a back button on the second page of the blog. These features prove the importance and versitality of Javascript!
 
 ## Technologies Used
 - HTML5
